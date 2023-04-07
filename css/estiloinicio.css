@@ -22,7 +22,8 @@ h1{
     text-decoration: none;
 }
 .menu-inicio a:hover{
-    background-color: azure;
+    background-color: black;
+    color: aliceblue;
 }
 .menu-inicio ul{
     background-color: aqua;
