@@ -12,3 +12,9 @@ footer{
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+button{
+    color: red;
+}
+button:hover{
+    color: black;
+}
