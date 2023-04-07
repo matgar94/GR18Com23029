@@ -6,22 +6,20 @@ body{
 }
 h1{
     text-align: center; 
-    font-size: 60px; 
-    padding: 2%;
-    font-weight: 900;
+    font-size: 40px; 
+    padding: 0.01%;
+    font-weight: 600;
     font-style: normal;
     text-align: center;
 }
-
-.inicio {
-    font-weight: 800;
-    font-size: 60px;
-    text-align: center;
-    
-}
-a{
+.menu-inicio a{
     text-decoration: none;
 }
-a:hover{
-    background-color:blanchedalmond;
+.menu-inicio ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
 }
