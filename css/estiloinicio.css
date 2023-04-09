@@ -12,10 +12,18 @@ h1{
     font-style: normal;
     text-align: center;
 }
+.informacion-viaje{
+    font-size: 40px; 
+    padding: 10%;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+}
 .menu-inicio {
     padding-bottom: 2em;
     margin-bottom: 2em;
     border-bottom: 1px solid hsl(0, 0%, 0%);
+    background-color: aquamarine;
 }
 .menu-inicio a{
     font-size: 40px;
@@ -33,4 +41,10 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; 
+}
+fieldset{
+    padding: 0.1%;
+    margin: 0%;
+    border-width: 5%;
+    border-style: hidden;
 }
