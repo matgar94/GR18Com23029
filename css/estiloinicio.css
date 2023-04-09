@@ -48,17 +48,35 @@ fieldset{
     border-width: 5%;
     border-style: hidden;
 }
+img{
+    border-radius: 10px;
+}
+figure{
+    padding: 0%;
+    margin: 0%;
+    align-items: center;
+}
 .recomendaciones{
-    
+    padding: 0%;
+    margin: 0%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
 }
 .recomendacion{
+    border: 5px;
+    border-style:double;
+    border-radius: 15px;
     width: 400px;
     text-align: left;
+    align-items: center;
+    
 }
 .contenido h2{
-        
+    margin: 0.3em;
 }
 .contenido p{
-        
+    margin: 0.3em;
 }
 
