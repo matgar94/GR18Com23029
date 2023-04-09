@@ -14,7 +14,7 @@ h1{
 }
 .informacion-viaje{
     font-size: 40px; 
-    padding: 10%;
+    padding: 0.8em;
     font-weight: 600;
     font-style: normal;
     text-align: left;
@@ -24,6 +24,9 @@ h1{
     margin-bottom: 2em;
     border-bottom: 1px solid hsl(0, 0%, 0%);
     background-color: aquamarine;
+}
+main{
+    padding: 0.8em;
 }
 .menu-inicio a{
     font-size: 40px;
@@ -48,6 +51,16 @@ fieldset{
     border-width: 5%;
     border-style: hidden;
 }
+.title{
+    align-items: flex-end;
+    text-decoration: double;
+    font-size: 30px; 
+    margin: auto;
+    padding: 0.8em auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
 img{
     border-radius: 10px;
 }
@@ -71,7 +84,9 @@ figure{
     width: 400px;
     text-align: left;
     align-items: center;
-    
+}
+.recomendacion:hover{
+    background-color: rgb(255, 255, 0);
 }
 .contenido h2{
     margin: 0.3em;
