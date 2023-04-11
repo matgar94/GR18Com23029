@@ -2,6 +2,10 @@ body{
     margin:1 auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0;
+    background-image: url('/GR18Com23029/img/tom-barrett-M0AWNxnLaMw-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
 }
 h1{
     text-align: center; 
@@ -15,7 +19,7 @@ h1{
 
 .inicio {
     font-weight: 800;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     
 }
@@ -23,7 +27,7 @@ a{
  text-decoration: none;
   background: $white;
   padding: 0.8em;
-  height: 320px;
+  height: 100px;
   border-radius: 20px;
   border-left: 1px solid $white;
   border-top: 1px solid $white;
@@ -34,5 +38,6 @@ a{
   transition: all 0.2s ease-in-out;
 }
 a:hover{
-    background-color:blanchedalmond;
+    background-color:rgb(77, 255, 231);
+    backdrop-filter: blur(100px);
 }

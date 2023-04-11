@@ -1,5 +1,5 @@
 body{
-    margin:1 auto;
+    margin:0 auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color:beige;
     padding: 0;
@@ -22,7 +22,7 @@ h1{
 .menu-inicio {
     padding-bottom: 2em;
     margin-bottom: 2em;
-    border-bottom: 1px solid hsl(0, 0%, 0%);
+    border-bottom: 2px solid hsl(0, 0%, 0%);
     background-color: aquamarine;
     
 }
@@ -105,5 +105,9 @@ figure{
 }
 .contenido p{
     margin: 0.3em;
+    
+}
+.dataempresa{
+    transition: all 5s ease-in-out;
 }
 
