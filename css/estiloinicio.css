@@ -20,11 +20,11 @@ h1{
     text-align: left;
 }
 .menu-inicio {
+    font-size: 30px; 
     padding-bottom: 2em;
     margin-bottom: 2em;
     border-bottom: 2px solid hsl(0, 0%, 0%);
     background-color: aquamarine;
-    
 }
 main{
     padding: 0.8em;
@@ -110,4 +110,34 @@ figure{
 .dataempresa{
     transition: all 5s ease-in-out;
 }
+.grid-container {
+    
+    display: grid;
+    gap:10px 10px;
+    row-gap: 10px;
+    grid-template-columns: 1fr 1fr ;
+    background-color: #8d8d8d;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    grid-template-columns: fit-content(400px) fit-content(400px) ;
+    border: 5px;
+    border-style:double;
+    border-radius: 15px;
+    padding: 0%;
+    margin: 0%;
+    align-items: center;
+    
+    justify-content: space-around; 
+    text-align: left;
+    align-items: center;
 
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 15px;
+    text-align: justify;
+  }
+  
