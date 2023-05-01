@@ -1,40 +1,33 @@
 body{
-    margin:0 auto;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color:beige;
+    margin:1 auto;
+    
     padding: 0;
+    background-image: url('/GR18Com23029/img/tom-barrett-M0AWNxnLaMw-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
 }
 h1{
     text-align: center; 
-    font-size: 40px; 
-    padding: 0.01%;
-    font-weight: 600;
+    font-size: 60px; 
+    padding: 2%;
+    font-weight: 900;
     font-style: normal;
     text-align: center;
 }
-.informacion-viaje{
-    font-size: 40px; 
-    padding: 0.8em;
-    font-weight: 600;
-    font-style: normal;
-    text-align: left;
+
+
+.inicio {
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    
 }
-.menu-inicio {
-    font-size: 30px; 
-    padding-bottom: 2em;
-    margin-bottom: 2em;
-    border-bottom: 2px solid hsl(0, 0%, 0%);
-    background-color: aquamarine;
-}
-main{
-    padding: 0.8em;
-}
-.menu-inicio a{
-  font-size: 40px;
-  text-decoration: none;
+a{
+ text-decoration: none;
   background: $white;
-  padding: 0.2em;
-  height: 320px;
+  padding: 0.8em;
+  height: 100px;
   border-radius: 20px;
   border-left: 1px solid $white;
   border-top: 1px solid $white;
@@ -44,100 +37,7 @@ main{
   position: relative;
   transition: all 0.2s ease-in-out;
 }
-.menu-inicio a:hover{
-    background-color: black;
-    color: aliceblue;
+a:hover{
+    background-color:rgb(77, 255, 231);
+    backdrop-filter: blur(100px);
 }
-.menu-inicio ul{
-    
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; 
-}
-fieldset{
-    padding: 0.1%;
-    margin: 0%;
-    border-width: 5%;
-    border-style: hidden;
-}
-.title{
-    align-items: flex-end;
-    text-decoration: double;
-    font-size: 30px; 
-    margin: auto;
-    padding: 0.8em auto;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-}
-img{
-    border-radius: 10px;
-}
-figure{
-    padding: 0%;
-    margin: 0%;
-    align-items: center;
-}
-.recomendaciones{
-    padding: 0%;
-    margin: 0%;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; 
-}
-.recomendacion{
-    border: 5px;
-    border-style:double;
-    border-radius: 15px;
-    width: 400px;
-    text-align: left;
-    align-items: center;
-}
-.recomendacion:hover{
-    background-color: rgb(255, 255, 0);
-}
-.contenido h2{
-    margin: 0.3em;
-}
-.contenido p{
-    margin: 0.3em;
-    
-}
-.dataempresa{
-    transition: all 5s ease-in-out;
-}
-.grid-container {
-    
-    display: grid;
-    gap:10px 10px;
-    row-gap: 10px;
-    grid-template-columns: 1fr 1fr ;
-    background-color: #8d8d8d;
-    padding: 10px;
-  }
-  
-  .grid-item {
-    grid-template-columns: fit-content(400px) fit-content(400px) ;
-    border: 5px;
-    border-style:double;
-    border-radius: 15px;
-    padding: 0%;
-    margin: 0%;
-    align-items: center;
-    
-    justify-content: space-around; 
-    text-align: left;
-    align-items: center;
-
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
-    padding: 20px;
-    font-size: 15px;
-    text-align: justify;
-  }
-  
