@@ -1,11 +1,20 @@
-.color1 { 
-    #6cd9d2
- }
+.centrado{
+    margin:0 auto;
+    background-color:#ffa200;
+    padding: 0;
+    border-radius: 2px;
+}
+.viajes{
+    margin:0 auto;
+    background-color:#ffa200;
+    text-align: center;
+    padding: 0; 
+}
+.viajes h2{
+    text-align: center;
+}
 body{
     margin:0 auto;
-    
-    background-color:#00FFFF;
-    
     padding: 0;
 }
 h1{
@@ -28,7 +37,7 @@ h1{
     padding-bottom: 2em;
     margin-bottom: 2em;
     border-bottom: 2px solid hsl(0, 0%, 0%);
-    background-color: aquamarine;
+    background-color: #f0b651;
 }
 main{
     padding: 0.8em;
